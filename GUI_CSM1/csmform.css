@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.form-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+
+.header-center {
+
+    text-align: center;
+    width: 50%;
+}
+
+.header-right {
+    text-align: right;
+    width: 30%;
+    font-size: 12px;
+    padding: 100px;
+   
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+h2 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.intro {
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+form {
+    font-size: 14px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    margin-right: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+/*
+.next-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    bottom: 20px;
+    left: 15px;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+
+#secondForm {
+    display: none;
+}
+*/
+/*
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.submit-button {
+    padding: 6px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+*/
+
+
+/* button card */
+.form-card {
+    display: none;
+}
+
+.form-card.active {
+    display: block;
+}
+
+.next-button, .prev-button, .submit-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007BFF; /* Blue color for buttons */
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.next-button:hover, .prev-button:hover, .submit-button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+.prev-button {
+    background-color: #6c757d; /* Grey color for Previous button */
+}
+
+.prev-button:hover {
+    background-color: #5a6268; /* Darker grey for hover effect */
+}
+
+.header-center, .header-right {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+
+
+/*form 3*/
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.instructions {
+    margin-bottom: 20px;
+}
+.optional-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*form 4*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
